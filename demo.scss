@@ -692,3 +692,57 @@ footer{
      
         
 }    
+// footer section start here
+
+footer{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+
+   position: relative;
+
+ padding-top: 20px;
+    
+    .social-media{ 
+        margin: 0 auto;
+     
+  
+    }
+
+    .shop{
+        position: absolute;
+        left: 10px;
+        
+        
+    }
+    .company{
+        position: absolute;
+        right: 10px;
+    }
+  .email{
+         margin: 10px;
+            h4{
+                color: white;
+            }
+            input{
+                padding: 10px;
+            }
+            .btn{
+                padding: 10px;
+                font-size: 14px; 
+                transition: all .3s;
+            }
+            .btn:hover{
+                background-color: black;
+                color: white;
+                border: none;
+            }
+        }
+    }
+    
+  // footer section end  here
+
+
+
+
+
