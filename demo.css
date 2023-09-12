@@ -303,4 +303,109 @@ main .feedback-section .card-container .card p {
   text-align: left;
   color: rgb(27, 27, 27);
   font-family: "Roboto", sans-serif;
+}
+
+footer {
+  background-color: #224f34;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+footer .social-media h2 {
+  font-family: "Playfair Display", serif;
+  margin: 10px;
+  font-size: 30px;
+  color: white;
+}
+footer .social-media p {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  color: white;
+}
+footer .social-media ul {
+  display: flex;
+  padding: 0;
+}
+footer .social-media ul li {
+  list-style: none;
+  margin: 10px;
+}
+footer .social-media ul li a {
+  font-size: 16px;
+  color: white;
+  display: flex;
+  text-decoration: none;
+}
+footer .social-media ul li a:hover {
+  color: blue;
+}
+footer .shop {
+  color: white;
+}
+footer .shop h4 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+}
+footer .shop ul {
+  padding: 0;
+}
+footer .shop ul li {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+}
+footer .shop ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+}
+footer .shop ul li a:hover {
+  color: burlywood;
+}
+footer .company {
+  color: white;
+}
+footer .company h4 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+}
+footer .company ul {
+  padding: 0;
+}
+footer .company ul li {
+  list-style: none;
+  margin: 10px;
+}
+footer .company ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+}
+footer .company ul li a:hover {
+  color: burlywood;
+}
+footer .email {
+  text-align: center;
+  margin-top: 20px;
+}
+footer .email h4 {
+  color: white;
+}
+footer .email input {
+  padding: 10px;
+}
+footer .email .btn {
+  padding: 10px;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+footer .email .btn:hover {
+  background-color: black;
+  color: white;
+  border: none;
 }/*# sourceMappingURL=demo.css.map */

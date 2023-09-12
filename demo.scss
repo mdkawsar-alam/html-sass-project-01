@@ -361,3 +361,139 @@ main{
         } }
 }
 }
+
+// footer start here
+   
+    
+
+footer{ 
+    
+    background-color: $footer-color;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-top: 20px;
+    .social-media{ 
+     
+      
+        h2{
+            font-family: 'Playfair Display', serif; 
+             margin: 10px;
+            font-size: 30px;
+            color:white;
+        }
+        p{
+            font-family: 'Roboto', sans-serif;
+             letter-spacing: 2px;
+             color: white;
+
+        }
+        ul{
+            display: flex;
+          padding: 0;
+          
+     
+            
+            li{
+                list-style: none; 
+                margin: 10px;
+             
+               a{
+                    font-size: 16px;
+                    color: white;
+                    display: flex;
+                    text-decoration: none;
+
+                
+                }
+                a:hover{
+                    color: blue;
+                }
+                
+            }
+             
+            }
+        }
+        .shop{
+            color: white;
+            
+     
+            
+            h4{
+                font-family: 'Playfair Display', serif;
+                letter-spacing: 1px;
+            }
+            ul{
+                padding: 0;
+                li{
+                    list-style: none;
+                    padding: 0;
+                    margin: 10px;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        font-family: 'Roboto', sans-serif;
+                        letter-spacing: 1.5px;
+                        font-size: 14px;
+
+
+                       
+                    }
+                    a:hover{
+                        color: burlywood;
+                    }
+                }
+            }
+        }
+        .company{
+            color: white;
+          
+            
+            
+            h4{
+                font-family: 'Playfair Display', serif;
+                letter-spacing: 1px;
+            }
+            ul{
+                padding: 0;
+                li{
+                    list-style: none;
+                    margin: 10px;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        font-family: 'Roboto', sans-serif;
+                        letter-spacing: 1.5px;
+                        font-size: 14px;
+
+
+                       
+                    }
+                    a:hover{
+                        color: burlywood;
+                    }
+                }
+            }
+        }
+        .email{
+            text-align: center;
+            margin-top: 20px;
+            h4{
+                color: white;
+            }
+            input{
+                padding: 10px;
+            }
+            .btn{
+                padding: 10px;
+                font-size: 14px; 
+                transition: all .3s;
+            }
+            .btn:hover{
+                background-color: black;
+                color: white;
+                border: none;
+            }
+        }
+    }
+    
