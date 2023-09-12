@@ -524,10 +524,44 @@ footer{
         .header-right{
             position: absolute; 
             right: 0; top: 10px;
-            
+
             .icon{
               display: none;
             }
         }
-    }  
+    } 
+    //header section end 
+     // main section responsive here
+     main{
+        //hero section start here
+        .hero-section{
+            padding: 20px;
+           
+            .hero-section-left{
+              
+                line-height: 30px;
+               
+        
+               h2{
+             
+                line-height: 45px;
+        
+                font-size: 40px;
+               }
+              
+               .btn{
+                border-radius: 10px;
+               }
+               
+            }
+            .hero-section-right{
+               padding: 10px;
+               
+            }
+
+        }
+    }
+         //hero section end here
+    
+    
 }

@@ -428,4 +428,20 @@ footer .email .btn:hover {
   header .header-right .icon {
     display: none;
   }
+  main .hero-section {
+    padding: 20px;
+  }
+  main .hero-section .hero-section-left {
+    line-height: 30px;
+  }
+  main .hero-section .hero-section-left h2 {
+    line-height: 45px;
+    font-size: 40px;
+  }
+  main .hero-section .hero-section-left .btn {
+    border-radius: 10px;
+  }
+  main .hero-section .hero-section-right {
+    padding: 10px;
+  }
 }/*# sourceMappingURL=demo.css.map */
