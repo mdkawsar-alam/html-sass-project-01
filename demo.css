@@ -444,16 +444,16 @@ footer .email .btn:hover {
   main .hero-section .hero-section-right {
     padding: 10px;
   }
-  .best_sells-section {
+  main .best_sells-section {
     margin-top: 25px;
   }
-  .best_sells-section .best_sells-section-info h2 {
+  main .best_sells-section .best_sells-section-info h2 {
     font-size: 28px;
   }
-  .best_sells-section .best_sells-section-info p {
+  main .best_sells-section .best_sells-section-info p {
     font-size: 16px;
   }
-  .best_sells-section .card-container {
+  main .best_sells-section .card-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -461,27 +461,33 @@ footer .email .btn:hover {
     width: 90%;
     margin-top: 20px;
   }
-  .best_sells-section .card-container .card {
-    display: contents;
+  main .best_sells-section .card-container .card {
     width: 100%;
   }
-  .best_sells-section .card-container .card .card-body {
+  main .best_sells-section .card-container .card .card-body {
     transition: all 0.6s;
     width: 80%;
     margin: 0 auto;
   }
-  .best_sells-section .card-container .card .card-body img {
+  main .best_sells-section .card-container .card .card-body img {
     width: 100%;
     height: 400px;
     border-radius: 7px;
   }
-  .best_sells-section .card-container .card .card-body:hover {
+  main .best_sells-section .card-container .card .card-body:hover {
     transform: scale(1.1);
   }
-  .best_sells-section .card-container .card .card-description {
+  main .best_sells-section .card-container .card .card-description {
     padding: 10px;
     text-align: center;
     margin: 5px;
     font-size: 16px;
+  }
+  main .product-section h2 {
+    font-size: 30px;
+  }
+  main .product-section .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }/*# sourceMappingURL=demo.css.map */
