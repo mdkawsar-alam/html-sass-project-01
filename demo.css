@@ -111,4 +111,113 @@ main .hero-section .hero-section-right img {
   border: none;
   width: 300px;
   border-radius: 30px 0px 30px 0px;
+}
+main .best_sells-section {
+  margin-top: 20px;
+  text-align: center;
+  background-color: white;
+}
+main .best_sells-section .best_sells-section-info {
+  text-align: center;
+}
+main .best_sells-section .best_sells-section-info h2 {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.5px;
+}
+main .best_sells-section .best_sells-section-info p {
+  font-family: "Roboto", sans-serif;
+}
+main .best_sells-section .card-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+main .best_sells-section .card-container .card {
+  margin: 10px;
+  padding: 10px;
+  width: 30%;
+}
+main .best_sells-section .card-container .card .card-body {
+  transition: all 0.6s;
+}
+main .best_sells-section .card-container .card .card-body img {
+  width: 100%;
+  height: 400px;
+  border-radius: 7px;
+}
+main .best_sells-section .card-container .card .card-body:hover {
+  transform: scale(1.1);
+}
+main .best_sells-section .card-container .card .card-description {
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+}
+main .best_sells-section .btn {
+  border: solid #224f34 1px;
+  color: #224f34;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+}
+main .best_sells-section .btn:hover {
+  background-color: #224f34;
+  color: white;
+}
+main .product-section {
+  margin-top: 10px;
+  text-align: center;
+}
+main .product-section h2 {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+}
+main .product-section ul {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+main .product-section ul li {
+  list-style: none;
+  margin: 14px;
+}
+main .product-section ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+main .product-section ul li a:hover {
+  -webkit-text-decoration: underline solid 2px;
+          text-decoration: underline solid 2px;
+}
+main .product-section .card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+main .product-section .card-container .card {
+  margin: 0 auto;
+  width: 90%;
+}
+main .product-section .card-container .card .card-body {
+  transition: all 0.6s;
+}
+main .product-section .card-container .card .card-body img {
+  width: 100%;
+  height: 400px;
+  border-radius: 7px;
+}
+main .product-section .card-container .card .card-body:hover {
+  transform: scale(1.1);
+}
+main .product-section .card-container .card .card-description {
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
 }/*# sourceMappingURL=demo.css.map */
