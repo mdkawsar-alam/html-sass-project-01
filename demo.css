@@ -517,41 +517,41 @@ footer .email .btn:hover {
   main .feedback-section .card-container .card {
     box-shadow: gray 3px 3px 8px;
   }
-}
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  position: relative;
-  padding-top: 20px;
-}
-footer .social-media {
-  margin: 0 auto;
-}
-footer .shop {
-  position: absolute;
-  left: 10px;
-}
-footer .company {
-  position: absolute;
-  right: 10px;
-}
-footer .email {
-  margin: 10px;
-}
-footer .email h4 {
-  color: white;
-}
-footer .email input {
-  padding: 10px;
-}
-footer .email .btn {
-  padding: 10px;
-  font-size: 14px;
-  transition: all 0.3s;
-}
-footer .email .btn:hover {
-  background-color: black;
-  color: white;
-  border: none;
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    padding-top: 20px;
+  }
+  footer .social-media {
+    margin: 0 auto;
+  }
+  footer .shop {
+    position: absolute;
+    left: 10px;
+  }
+  footer .company {
+    position: absolute;
+    right: 10px;
+  }
+  footer .email {
+    margin: 10px;
+  }
+  footer .email h4 {
+    color: white;
+  }
+  footer .email input {
+    padding: 10px;
+  }
+  footer .email .btn {
+    padding: 10px;
+    font-size: 14px;
+    transition: all 0.3s;
+  }
+  footer .email .btn:hover {
+    background-color: black;
+    color: white;
+    border: none;
+  }
 }/*# sourceMappingURL=demo.css.map */
