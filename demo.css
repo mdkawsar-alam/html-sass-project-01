@@ -497,4 +497,24 @@ footer .email .btn:hover {
     height: 95%;
     width: 95%;
   }
+  main .feedback-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+  main .feedback-section h2 {
+    font-family: "Playfair Display", serif;
+    letter-spacing: 2.5px;
+    font-size: 30px;
+    color: #224f34;
+  }
+  main .feedback-section .card-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+  }
+  main .feedback-section .card-container .card {
+    box-shadow: gray 3px 3px 8px;
+  }
 }/*# sourceMappingURL=demo.css.map */

@@ -656,6 +656,36 @@ footer{
     }  
 
     // offer section end here
+     // feedback section start  here
+
+     .feedback-section{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+       width: 90%;
+        text-align: center;
+        h2{
+            font-family: 'Playfair Display', serif;
+          letter-spacing: 2.5px;
+          font-size: 30px;
+          color: $font-color;
+        }
+        .card-container{
+        
+            grid-template-columns: repeat(1,1fr);
+            padding: 20px;
+         
+             
+            .card{
+               
+             box-shadow: gray 3px 3px 8px;
+            } 
+        }
+    }
+
+
+
+      //feedback section end here
 
        
     }
