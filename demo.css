@@ -490,4 +490,11 @@ footer .email .btn:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  main .offer-section {
+    width: 90%;
+  }
+  main .offer-section .offer-section-let img {
+    height: 95%;
+    width: 95%;
+  }
 }/*# sourceMappingURL=demo.css.map */
