@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Playball", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #c2efd4;
+  align-items: center;
+  color: #224f34;
+}
+header .logo-section h1 {
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  margin: 20px;
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #224f34;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 12px;
+  transition: all 0.5s;
+}
+header nav ul li a:hover {
+  color: #c2efd4;
+  background-color: #224f34;
+}
+header .header-right {
+  display: flex;
+}
+header .header-right .icon {
+  margin: 10px 20px;
+  padding-inline-end: 10px;
+  font-size: 22px;
+}
+header .header-right .btn {
+  border: #224f34 1px solid;
+  margin: 14px;
+  padding: 10px;
+  color: #224f34;
+  background-color: #c2efd4;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+header .header-right .btn:hover {
+  background-color: #224f34;
+  color: #c2efd4;
+}/*# sourceMappingURL=demo.css.map */

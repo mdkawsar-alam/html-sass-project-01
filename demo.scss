@@ -1,0 +1,79 @@
+*{
+    margin:0 
+}
+
+$bg-color:#c2efd4;
+$footer-color:#224f34;
+$font-color:#224f34;
+
+body{
+    font-family: 'Playball', cursive;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+}
+// header style header
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: $bg-color;
+align-items: center;
+    color: $footer-color;
+    .logo-section{
+        
+        h1{
+            font-weight: bold;
+            font-family: 'Playfair Display', serif;
+        }
+
+    }
+    nav{
+        ul{
+            display: flex;
+            li{
+                margin: 20px;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: $font-color;
+                    text-transform: uppercase; 
+                    letter-spacing: 1px;
+                    font-size: 14px;
+                    padding: 10px;
+                    border-radius: 12px;
+                   transition: all .5s ;
+                }
+                a:hover{
+                    color:#c2efd4;
+                    background-color: #224f34;
+                }
+            }
+        }
+
+    }
+    .header-right{
+        display: flex;
+        .icon{
+            margin: 10px 20px ; 
+            padding-inline-end: 10px;
+            font-size: 22px;
+        }
+        .btn{
+            border:  $font-color 1px solid;
+            margin: 14px;
+            padding: 10px;
+            color: $font-color;
+            background-color: $bg-color;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition:  all .3s;
+        }
+        .btn:hover{
+            background-color: #224f34;
+            color: #c2efd4;
+
+        }
+        
+    }
+
+}
