@@ -408,4 +408,24 @@ footer .email .btn:hover {
   background-color: black;
   color: white;
   border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    display: block;
+  }
+  header .logo-section {
+    padding: 10px;
+  }
+  header nav ul li {
+    margin: 5px;
+  }
+  header .header-right {
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+  header .header-right .icon {
+    display: none;
+  }
 }/*# sourceMappingURL=demo.css.map */

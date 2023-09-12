@@ -495,5 +495,39 @@ footer{
                 border: none;
             }
         }
+  
     }
+
+    // responsive for mobile device
+
+
+@media only screen and (max-width: 600px) {
+    // header section responsive here
+    header{
+
+        display: block;
+  
+        .logo-section{  padding: 10px;
+  
+        }
+        nav{
+            
+            ul{
+                
+                li{
+                    margin: 5px;
+                }
+               
+            }
     
+        }
+        .header-right{
+            position: absolute; 
+            right: 0; top: 10px;
+            
+            .icon{
+              display: none;
+            }
+        }
+    }  
+}
