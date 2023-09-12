@@ -271,7 +271,7 @@ main{
        
     }
      // offer section start  here
- .offer-section{
+    .offer-section{
         display: flex;
         width: 70%;
       margin:  0 auto;
@@ -325,4 +325,39 @@ main{
         
     }  
     //offer section end here
+     //feadback section start here 
+     .feedback-section{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+       width: 90%;
+        text-align: center;
+        h2{
+            font-family: 'Playfair Display', serif;
+          letter-spacing: 2.5px;
+          font-size: 30px;
+          color: $font-color;
+        }
+        .card-container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+             
+            .card{
+                margin-top: 20px;
+                padding: 10px ;
+                box-shadow: gray 5px 5px 8px;
+             h3{
+                    font-family: 'Playfair Display', serif;
+                    color: $font-color;
+                    text-align: center;
+                }
+                p{
+                    text-align: left;
+                    color: rgb(27, 27, 27);
+                    font-family: 'Roboto', sans-serif;
+
+                }
+        } }
+}
 }

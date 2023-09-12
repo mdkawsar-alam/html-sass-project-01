@@ -270,4 +270,37 @@ main .offer-section .offer-section-rigjht .boxs .data-box {
   border-radius: 10px;
   font-size: 14px;
   text-align: center;
+}
+main .feedback-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+main .feedback-section h2 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2.5px;
+  font-size: 30px;
+  color: #224f34;
+}
+main .feedback-section .card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+main .feedback-section .card-container .card {
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: gray 5px 5px 8px;
+}
+main .feedback-section .card-container .card h3 {
+  font-family: "Playfair Display", serif;
+  color: #224f34;
+  text-align: center;
+}
+main .feedback-section .card-container .card p {
+  text-align: left;
+  color: rgb(27, 27, 27);
+  font-family: "Roboto", sans-serif;
 }/*# sourceMappingURL=demo.css.map */
